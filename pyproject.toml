@@ -1,0 +1,11 @@
+[project]
+name = "difusers"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "diffusers[torch]>=0.37.1",
+    "torch>=2.11.0",
+    "transformers>=5.5.3",
+]
